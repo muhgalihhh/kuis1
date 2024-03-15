@@ -8,7 +8,7 @@
 ?>
 
 <main>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row">
       <div class="col-md-12">
         <h1 class="mt-5">Manajemen Barang</h1>
@@ -25,7 +25,7 @@
             Barang</button>
         </div>
         <div class="card-body">
-          <table class="table table-striped">
+          <table class="table table-striped" style="max-height: 500px; overflow-y: auto;">
             <thead>
               <tr>
                 <th scope="col">No</th>
@@ -37,8 +37,8 @@
             </thead>
             <tbody>
               <?php
-                foreach ($data as $row):
-                  ?>
+                while ($row = $data->fetch()){
+                ?>
               <tr>
                 <th scope="row"><?= $no++; ?></th>
                 <td><?= $row['nama_barang']; ?></td>
@@ -58,16 +58,20 @@
                   </button>
                 </td>
               </tr>
+
+
               <?php
                 include ("modal.php");
-                endforeach;
-                ?>
+                }
+              ?>
             </tbody>
+          </table>
         </div>
       </div>
     </div>
   </div>
 </main>
+
 <?php
   include ("footer.php"); 
 ?>

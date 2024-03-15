@@ -14,8 +14,8 @@
   <title>Manajemen Barang</title>
 </head>
 
-<body>
-  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+<body class="d-flex flex-column h-100">
+  <nav class="navbar bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">Manajemen Barang</span>
     </div>

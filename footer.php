@@ -1,8 +1,14 @@
-<footer class="footer mt-auto py-3 bg-light fixed-bottom">
-  <div class="container">
-    <div class="row"> <span class="text-center">Manajemen Barang - Muhamad Galih H1D022052</span></div>
+<footer>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">Manajemen Barang - Muhamad Galih H1D022052</p>
+      </div>
+    </div>
   </div>
 </footer>
+
+
 </body>
 
 </html>
