@@ -1,18 +1,23 @@
-# Ini adalah kuis pemrograman Web terkait dengan CRUD menggunakan metode PDO dengan database MySQL
+# Kuis Pemrograman Web: CRUD dengan PDO dan MySQL
 
-Nama : Muhamad Galih
-NIM : H1D022052
-Kelas : Pemweb B
+**Nama**: Muhamad Galih  
+**NIM**: H1D022052  
+**Kelas**: Pemweb B  
 
 ## Soal
 
-Manajemen Barang
+**Manajemen Barang**
 
-Fitur: Tambah, Lihat, Edit, dan Hapus data barang.
-Tabel: Barang (id, nama_barang, harga, stok).
+Fitur yang disediakan:
+- Tambah data barang
+- Lihat data barang
+- Edit data barang
+- Hapus data barang
 
+Tabel yang digunakan: `Barang` (id, nama_barang, harga, stok).
 
->> Penggunaan file jika ingin menjalankan program ini
+## Cara Menjalankan Program
+
 1. Buka XAMPP (jika menggunakan XAMPP)
 2. Download file ini
 3. Pindahkan file ini ke dalam folder htdocs
@@ -20,5 +25,4 @@ Tabel: Barang (id, nama_barang, harga, stok).
 5. Buka browser dan ketikkan localhost/nama_folder_file_ini
 6. Selesai
 
-# Peringatan :
-- Pastikan terkoneksi dengan internet karena menggunakan CDN
+> **Peringatan**: Pastikan terkoneksi dengan internet karena menggunakan CDN
